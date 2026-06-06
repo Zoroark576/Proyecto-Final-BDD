@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_final_Base_de_Datos
 {
-    public partial class Form1 : Form
+    public partial class escogeTusPersonajes : Form
     {
-        public Form1()
+        public escogeTusPersonajes()
         {
             InitializeComponent();
         }
