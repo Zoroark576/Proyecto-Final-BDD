@@ -19,7 +19,11 @@ namespace Proyecto_final_Base_de_Datos
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            List<String> listaVacia = new List<String>();
+            Form consulta = new consulta(listaVacia);
+            this.Hide();
+            consulta.Show();
+            
         }
     }
 }
