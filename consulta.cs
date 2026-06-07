@@ -156,7 +156,7 @@ namespace Proyecto_final_Base_de_Datos
             tBRegion.Clear();
             tBPosicion.Clear();
             tBEdad.Clear();
-            tBPersonajesSeleccionados.Clear();
+            tBPersonajesSeleccionados.Text = "No hay personajes seleccionados";
 
             rBPosIgual.Checked = true;
             rBPosMenor.Checked = false;
